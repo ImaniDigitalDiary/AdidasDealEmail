@@ -3,6 +3,12 @@ body {
     background-color: #4BC46F;
 }
 
+header {
+    background-color: #000;
+    width: 600px;
+    height: 103px;
+}
+
 .adidas-logo {
     width: 128px;
     height: 83px;
