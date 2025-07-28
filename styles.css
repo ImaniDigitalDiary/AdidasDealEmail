@@ -1,6 +1,8 @@
 html,
 body {
     background-color: #4BC46F;
+    padding: 0;
+    margin: 0;
 }
 
 header {
