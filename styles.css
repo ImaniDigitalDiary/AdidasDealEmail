@@ -10,11 +10,14 @@ body {
     background-color: #4BC46F;
     overflow-x: hidden;
 }
+
+
 .email-wrapper {
     width: 100%;
     max-width: 600px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
+
 
 nav {
     display: flex;
@@ -57,4 +60,18 @@ a {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.marquee-wrapper {
+    width: 100%;
+    max-width: 600px;
+    height: 52px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin: 25px 0;
+}
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
 }
