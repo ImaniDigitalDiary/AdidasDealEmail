@@ -72,7 +72,9 @@ a {
     margin: 25px 0;
 }
 .marquee {
-    display: inline-block;
+    height: 52px;
+    display: inline-flex; 
+    align-items: center;
     white-space: nowrap;
     animation: scroll-left 10s linear infinite;
     font-family: "Jersey 25", sans-serif;
