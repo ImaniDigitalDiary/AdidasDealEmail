@@ -105,6 +105,7 @@ a {
 .stripes-earned-container {
     position: relative;
     width: fit-content;
+    
 }
 .adidas-stripes-img {
     display: block;
@@ -115,6 +116,7 @@ a {
     position: relative;
     top: -70px;
     border-radius: 20px;
+    box-shadow: 6px 8px 4px rgba(10, 33, 22, 0.6);
 }
 .stripes-earned-text {
     position: absolute;
@@ -129,6 +131,7 @@ a {
     color: #fff;
     text-align: center;
     white-space: nowrap;
+    box-shadow: 6px 8px 4px rgba(106, 146, 126, 0.62);
 }
 .stripes-earned-text-span {
     text-transform: uppercase;
