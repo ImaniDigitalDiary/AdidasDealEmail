@@ -108,4 +108,5 @@ a {
     transform: rotate(-90deg);
     position: relative;
     top: -70px;
+    border-radius: 20px;
 }
