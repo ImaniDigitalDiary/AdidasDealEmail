@@ -99,6 +99,8 @@ a {
 
 
 .adidas-stripes-img {
+    display: block;
+    margin: auto;
     width: 393px;
     height: 561px;
     transform: rotate(-90deg);
