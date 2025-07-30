@@ -117,7 +117,7 @@ a {
     position: relative;
     top: -70px;
     border-radius: 20px;
-    box-shadow: 6px 8px 4px rgba(10, 33, 22, 0.6);
+    box-shadow: 8px 6px 4px rgba(10, 33, 22, 0.6);
 }
 .stripes-earned-text {
     position: absolute;
@@ -132,7 +132,7 @@ a {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    box-shadow: 6px 8px 4px rgba(106, 146, 126, 0.62);
+    box-shadow: 6px 4px 4px rgba(106, 146, 126, 0.62);
 }
 .stripes-earned-text-span {
     text-transform: uppercase;
@@ -148,11 +148,17 @@ a {
     align-items: center;
     text-align: center;
 }
+.shop-div h4 {
+    font-size: 28px;
+    font-family: 'Jersey 25', sans-serif;
+    letter-spacing: .5px;
+}
 .shop-btns-div {
     display: flex;
     flex-direction: column; 
     justify-content: center;
     gap: 20px;
+    margin-top: 10px;;
 }
 button {
     background-color: #000;
