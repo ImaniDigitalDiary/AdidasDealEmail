@@ -98,15 +98,38 @@ a {
 }
 
 .stripes-earned-div {
-    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.stripes-earned-container {
+    position: relative;
+    width: fit-content;
 }
 .adidas-stripes-img {
     display: block;
-    margin: auto;
+    /* margin: auto; */
     width: 393px;
     height: 561px;
     transform: rotate(-90deg);
     position: relative;
     top: -70px;
     border-radius: 20px;
+}
+.stripes-earned-text {
+    position: absolute;
+    top:30%;
+    left: -8%;
+    /* transform: translate(-50%, -80%); */
+    background-color: rgba(0,0,0,0.7);
+    padding: 18px 28px;
+    border-radius: 25px;
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+}
+.stripes-earned-text-span {
+    text-transform: uppercase;
 }
