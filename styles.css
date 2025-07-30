@@ -97,11 +97,15 @@ a {
     }
 }
 
-
+.stripes-earned-div {
+    
+}
 .adidas-stripes-img {
     display: block;
     margin: auto;
     width: 393px;
     height: 561px;
     transform: rotate(-90deg);
+    position: relative;
+    top: -70px;
 }
