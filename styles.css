@@ -73,12 +73,33 @@ a {
 }
 .marquee {
     height: 52px;
-    display: inline-flex; 
+    /* display: inline-flex;  */
+    display: flex;
     align-items: center;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     animation: scroll-left 10s linear infinite;
+    width: fit-content;
+
+}
+.marquee-content {
+    white-space: nowrap;
     font-family: "Jersey 25", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 28px;
+}
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%)
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+
+.adidas-stripes-img {
+    width: 393px;
+    height: 561px;
+    transform: rotate(-90deg);
 }
