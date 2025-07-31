@@ -153,10 +153,11 @@ a {
 }
 /* white shape img behind elements */
 .white-shape-img {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    /* top: 0; */
     left: 0;
-    width: 100%;
+    width: 630px;
+    height: 300px;
     z-index: 1;
 }
 /* visible barcode behing elements */
