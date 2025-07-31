@@ -140,13 +140,37 @@ a {
 
 
 .shop-div {
+    position: relative;
+    overflow: hidden;
+    /* background-color: #4BC46F; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 600px;
     margin: 0 auto;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
+}
+/* white shape img behind elements */
+.white-shape-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+/* visible barcode behing elements */
+.barcode-img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+/* text & buttons above/on-top of background images */
+.shop-div h4,
+.shop-btns-div {
+    position: relative;
+    z-index: 3;
 }
 .shop-div h4 {
     font-size: 28px;
@@ -158,7 +182,8 @@ a {
     flex-direction: column; 
     justify-content: center;
     gap: 20px;
-    margin-top: 10px;;
+    align-items: center;
+    margin-top: 10px;
 }
 button {
     background-color: #000;
