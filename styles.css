@@ -142,7 +142,7 @@ a {
 .shop-div {
     position: relative;
     overflow: hidden;
-    /* background-color: #4BC46F; */
+    background-color: #4BC46F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,17 +155,17 @@ a {
 /* white shape img behind elements */
 .white-shape-img {
     position: absolute;
-    top: 29.5%;
+    top: 10.5%;
     right: -3%;
     width: 630px;
     height: 300px;
     z-index: 1;
 }
-/* visible barcode behing elements */
+/* visible barcode behind elements */
 .barcode-img {
     position: absolute;
-    /* z-index: 2; */
-    top: 50%;
+    z-index: 2;
+    top: 30%;
     left: 70%;
     transform: translateY(-50%);
 }
@@ -187,6 +187,7 @@ a {
     gap: 20px;
     align-items: center;
     margin-top: 10px;
+    top: 10%;
 }
 button {
     background-color: #000;
