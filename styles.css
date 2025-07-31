@@ -154,9 +154,8 @@ a {
 /* white shape img behind elements */
 .white-shape-img {
     position: absolute;
-    top: 28%;
-    /* bottom: 30%; */
-    left: 0;
+    top: 29.5%;
+    right: -3%;
     width: 630px;
     height: 300px;
     z-index: 1;
