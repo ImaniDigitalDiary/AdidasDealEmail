@@ -7,6 +7,8 @@ html {
     background: #246137;
 }
 body {
+    position: absolute;
+    left: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +16,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     width: 600px;
+    /* transform: translate(-50); */
 }
 
 
@@ -216,12 +219,22 @@ button {
 }
 
 
-div.adidas-meetup-div {
+.adidas-meetup-div {
     display: flex;
+    flex-direction: column;
     align-self: center;
     width: 600px;
 }
+.adidas-meetup-container {
+    position: relative;
+}
 .adidas-meetup-img {
+    display: block;
     width: 600px;
     height: 350px;
+    position: relative;
+}
+.adidas-meetup-text {
+    position: absolute;
+    top: 90%;
 }
