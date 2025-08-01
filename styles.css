@@ -237,4 +237,8 @@ button {
 .adidas-meetup-text {
     position: absolute;
     top: 90%;
+    font-family: "Jura", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: right;
 }
