@@ -242,4 +242,8 @@ button {
     font-size: 30px;
     text-align: right;
     width: 600px;
+    text-shadow: 
+        -1px -1px 0 #4BC46F,
+        1px -1px 0 #4BC46F
+    ;
 }
