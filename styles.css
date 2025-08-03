@@ -220,10 +220,12 @@ button {
 
 
 .adidas-meetup-div {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-self: center;
     width: 600px;
+    height: 600px;
 }
 .adidas-meetup-container {
     position: relative;
@@ -235,8 +237,11 @@ button {
     position: relative;
 }
 .adidas-meetup-text {
-    position: absolute;
-    top: 90%;
+    position: relative;
+    z-index: 2;
+    bottom: 10%;
+    right: 5%;
+    /* top: 90%; */
     font-family: "Jura", sans-serif;
     color: #fff;
     font-size: 30px;
@@ -244,6 +249,15 @@ button {
     width: 600px;
     text-shadow: 
         -1px -1px 0 #4BC46F,
-        1px -1px 0 #4BC46F
-    ;
+        1px -1px 0 #4BC46F;
+}
+.black-shape-img {
+    position: relative;
+    bottom: 28.3%;
+    right: 2%;
+    /* overflow: hidden; */
+    /* top: 70%; */
+    /* z-index: 1; */
+    width: 635px;
+    height: 300px;
 }
