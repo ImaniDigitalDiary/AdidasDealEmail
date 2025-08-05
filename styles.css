@@ -8,7 +8,7 @@ html {
 }
 body {
     position: absolute;
-    left: 30%;
+    /* left: 30%;  */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,7 +225,7 @@ button {
     flex-direction: column;
     align-self: center;
     width: 600px;
-    height: 600px;
+    height: 550px;
 }
 .adidas-meetup-container {
     position: relative;
@@ -253,11 +253,17 @@ button {
 }
 .black-shape-img {
     position: relative;
-    bottom: 28.3%;
-    right: 2%;
+    bottom: 31.3%;
+    right: .5%;
     /* overflow: hidden; */
     /* top: 70%; */
-    /* z-index: 1; */
-    width: 635px;
+    z-index: 2;
+    width: 620px;
     height: 300px;
+}
+.barcode-img-2 {
+    position: absolute;
+    top: 80%;
+    left: -4%;
+    z-index: 1;
 }
