@@ -238,7 +238,7 @@ button {
 }
 .adidas-meetup-text {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     bottom: 10%;
     right: 5%;
     /* top: 90%; */
