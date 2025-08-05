@@ -30,6 +30,7 @@ body {
     /* max-width: 600px; */
     /* width: 100vw; */
     overflow: hidden;
+    box-shadow: 10px 10px 10px 8px rgba(21, 30, 25, 0.62);
 }
 
 
